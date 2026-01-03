@@ -1,0 +1,20 @@
+{
+  "name": "FNN_128x3__Nd500__Nb2",
+  "layer_size": [
+    7,
+    128,
+    128,
+    128,
+    2
+  ],
+  "activation": "tanh",
+  "initializer": "Glorot normal",
+  "num_domain": 500,
+  "num_boundary": 2,
+  "num_test": 3000,
+  "iterations": 50000,
+  "lr": 0.001,
+  "use_lbfgs": true,
+  "seed": 1234,
+  "train_distribution": "pseudo"
+}
